@@ -15,6 +15,7 @@
 	align-items: center;
 	padding: 5px;
 	width: 200px;
+	position: relative;
 }
 
 .list-item-image-wrapper {
@@ -27,4 +28,11 @@
 	width: 100%;
 
 
+}
+
+.list-item-heart-adapter {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 22px;
 }
