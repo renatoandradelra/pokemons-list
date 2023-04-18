@@ -14,7 +14,7 @@ function List({ items = [], favorites = [], onItemFavorite}) {
 		return items.map((pokemon)=> {
 			const isFAvorite = favorites.includes(pokemon.name);
 
-			const sprite = pokemon.sprites.other['official-artwork'].front_default;
+			const sprite = pokemon.sprite;
 
 			return (
 				<div key={pokemon.name} className='list-item'>
