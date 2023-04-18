@@ -6,7 +6,7 @@ import DetailsPage from '../../Pages/DetailsPage/DetailsPage';
 function Router(){
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter data-testid="router">
 			<Routes>
 				<Route path='/' element={<HomePage />} />
 				<Route path='/details/:name' element={<DetailsPage />} />
